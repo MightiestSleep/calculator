@@ -1,1 +1,36 @@
+.top {
+   display: grid;
+   width: 400px;
+   height:100px;
+   grid-template-columns: 1fr 1fr;
+   
+}
+#C{
+    
+    width: 132px;
+    height:99px;
+}
+.display
+{
+    border: solid;
+    width: 262px;
+    height:100px;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.bottom {
+ width:400px;
+ height:400px;
+ border: 1px solid black;
+ display: grid;
+ grid-template-columns: repeat(3,3fr);
+ grid-template-rows: repeat(5,5fr);
+}
+.cell{
+    text-align: center;
+    font-size: 50;
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
